@@ -1,282 +1,158 @@
-\# Infraestrutura — LOSTTECH
+# Infraestrutura — LOSTTECH
 
-
-
-\## Objetivo
-
-
+## Objetivo
 
 Definir a visão geral da infraestrutura tecnológica utilizada nos projetos e operações da LOSTTECH.
 
+---
 
-
-\## Princípios
-
-
+## Princípios
 
 A infraestrutura deve priorizar:
 
+- Segurança
+- Disponibilidade
+- Confiabilidade
+- Escalabilidade
+- Monitoramento
+- Backup
+- Recuperação
+- Automação
 
+---
 
-\- Segurança
-
-\- Disponibilidade
-
-\- Confiabilidade
-
-\- Escalabilidade
-
-\- Monitoramento
-
-\- Backup
-
-\- Recuperação
-
-\- Automação
-
-
-
-\## Ambientes
-
-
+## Ambientes
 
 Os projetos podem utilizar diferentes ambientes:
 
+- Desenvolvimento
+- Testes
+- Homologação
+- Produção
 
+Cada ambiente deve possuir configurações adequadas ao seu propósito, mantendo separação e controle quando necessário.
 
-\- Desenvolvimento
+---
 
-\- Testes
-
-\- Homologação
-
-\- Produção
-
-
-
-Cada ambiente deve possuir configurações adequadas ao seu propósito.
-
-
-
-\## Servidores
-
-
+## Servidores
 
 Quando aplicável, os servidores podem hospedar:
 
+- Aplicações web
+- APIs
+- Bancos de dados
+- Serviços internos
+- Automações
+- Sistemas administrativos
 
+As configurações devem ser documentadas e versionadas sempre que possível.
 
-\- Aplicações web
+---
 
-\- APIs
+## Banco de dados
 
-\- Bancos de dados
+### Tecnologias atualmente utilizadas
 
-\- Serviços internos
+- MySQL
+- MariaDB
 
-\- Automações
+### Boas práticas
 
-\- Sistemas administrativos
+- Backups periódicos
+- Controle de acesso
+- Migrations
+- Monitoramento
+- Documentação das alterações
+- Procedimentos de recuperação
 
+---
 
-
-A configuração deve ser documentada e versionada sempre que possível.
-
-
-
-\## Banco de dados
-
-
-
-Tecnologias atualmente utilizadas:
-
-
-
-\- MySQL
-
-\- MariaDB
-
-
-
-Boas práticas:
-
-
-
-\- Backups periódicos
-
-\- Controle de acesso
-
-\- Migrations
-
-\- Monitoramento
-
-\- Documentação das alterações
-
-\- Procedimentos de recuperação
-
-
-
-\## Containers
-
-
+## Containers
 
 Projetos compatíveis podem utilizar Docker para:
 
+- Padronização de ambientes
+- Isolamento de serviços
+- Desenvolvimento local
+- Testes
+- Deploy
 
+A configuração dos containers deve ser documentada e mantida de forma consistente entre os ambientes.
 
-\- Padronização de ambientes
+---
 
-\- Isolamento de serviços
-
-\- Desenvolvimento local
-
-\- Testes
-
-\- Deploy
-
-
-
-\## Redes
-
-
+## Redes
 
 A infraestrutura deve considerar:
 
+- Controle de acesso
+- Firewall
+- Segmentação quando necessária
+- Segurança de serviços expostos
+- Monitoramento de conectividade
 
+Serviços expostos à rede devem ser avaliados quanto à necessidade, segurança e nível de acesso.
 
-\- Controle de acesso
+---
 
-\- Firewall
+## Backup
 
-\- Segmentação quando necessária
-
-\- Segurança de serviços expostos
-
-\- Monitoramento de conectividade
-
-
-
-\## Backup
-
-
-
-Dados importantes devem possuir estratégia de backup adequada.
-
-
+Dados importantes devem possuir uma estratégia de backup adequada.
 
 O planejamento deve considerar:
 
+- Frequência
+- Retenção
+- Local de armazenamento
+- Segurança
+- Testes de restauração
+- Procedimentos de recuperação
 
+Backups devem ser periodicamente verificados para garantir sua integridade e possibilidade de restauração.
 
-\- Frequência
+---
 
-\- Retenção
-
-\- Local de armazenamento
-
-\- Segurança
-
-\- Testes de restauração
-
-
-
-\## Monitoramento
-
-
+## Monitoramento
 
 Quando necessário, os ambientes devem possuir mecanismos para acompanhar:
 
+- Disponibilidade
+- Uso de recursos
+- Erros
+- Serviços
+- Bancos de dados
+- Aplicações
+- Conectividade
 
+O monitoramento deve permitir identificar problemas e apoiar a manutenção preventiva da infraestrutura.
 
-\- Disponibilidade
+---
 
-\- Uso de recursos
-
-\- Erros
-
-\- Serviços
-
-\- Banco de dados
-
-\- Aplicações
-
-
-
-\## Segurança
-
-
+## Segurança
 
 Credenciais e informações sensíveis nunca devem ser armazenadas diretamente no código ou no repositório.
 
+Devem ser utilizados mecanismos apropriados para:
 
+- Configuração de ambientes
+- Gerenciamento de segredos
+- Controle de acesso
+- Proteção de credenciais
+- Auditoria quando aplicável
 
-Devem ser utilizados mecanismos apropriados de configuração e gerenciamento de segredos.
+---
 
-
-
-\## Deploy
-
-
+## Deploy
 
 O processo de implantação deve ser controlado e documentado.
 
+Sempre que possível, utilizar o seguinte fluxo:
 
-
-Sempre que possível:
-
-
-
-Desenvolvimento  
-
-↓  
-
-Testes  
-
-↓  
-
-Homologação  
-
-↓  
-
+```text
+Desenvolvimento
+      ↓
+Testes
+      ↓
+Homologação
+      ↓
 Produção
-
-
-
-Alterações críticas devem possuir procedimento de rollback.
-
-
-
-\## Documentação
-
-
-
-Configurações importantes de infraestrutura devem ser documentadas em:
-
-
-
-`docs/infrastructure/`
-
-
-
-A documentação deve acompanhar a evolução da infraestrutura.
-
-
-
-\## Evolução
-
-
-
-A infraestrutura da LOSTTECH poderá incorporar novas tecnologias conforme necessidade técnica, segurança, desempenho e escalabilidade.
-
-
-
-\## Status
-
-
-
-Status: Padrão inicial em desenvolvimento
-
-
-
-Última atualização: 2026
-
