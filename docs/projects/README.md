@@ -1,244 +1,82 @@
-\# Projetos — LOSTTECH
+# Projetos — LOSTTECH
 
-
-
-\## Objetivo
-
-
+## Objetivo
 
 Centralizar padrões para organização, desenvolvimento, documentação e evolução dos projetos da LOSTTECH.
 
+---
 
-
-\## Categorias
-
-
+## Categorias
 
 Os projetos podem ser organizados nas seguintes áreas:
 
+- Web & Software
+- Automação
+- Infraestrutura
+- Suporte & TI
+- Ferramentas
+- Labs
+- Documentação
+- Recursos Internos
 
+---
 
-\- Web \& Software
-
-\- Automação
-
-\- Infraestrutura
-
-\- Suporte \& TI
-
-\- Ferramentas
-
-\- Labs
-
-\- Documentação
-
-\- Recursos internos
-
-
-
-\## Estrutura
-
-
+## Estrutura
 
 Cada projeto deve possuir, quando aplicável:
 
+- `README.md`
+- Código-fonte
+- Configurações
+- Documentação
+- Testes
+- Scripts
+- Arquivos de configuração de ambiente
 
+A estrutura pode ser adaptada conforme a tecnologia, arquitetura e complexidade de cada projeto.
 
-\- README.md
+---
 
-\- Código-fonte
+## README dos projetos
 
-\- Configurações
+Projetos relevantes devem possuir um `README.md` contendo, quando aplicável:
 
-\- Documentação
+- Objetivo
+- Funcionalidades
+- Tecnologias
+- Requisitos
+- Instalação
+- Configuração
+- Execução
+- Estrutura
+- Testes
+- Deploy
+- Informações adicionais
 
-\- Testes
+A documentação deve permanecer atualizada conforme a evolução do projeto.
 
-\- Scripts
+---
 
-\- Arquivos de configuração de ambiente
+## Tecnologias
 
+A escolha das tecnologias deve considerar:
 
+- Necessidade do projeto
+- Manutenibilidade
+- Segurança
+- Desempenho
+- Escalabilidade
+- Compatibilidade
+- Custo
+- Conhecimento técnico disponível
 
-\## README dos projetos
+A adoção de novas tecnologias deve ser avaliada de acordo com os requisitos e objetivos do projeto.
 
+---
 
-
-Projetos relevantes devem possuir README contendo:
-
-
-
-\- Objetivo
-
-\- Funcionalidades
-
-\- Tecnologias
-
-\- Requisitos
-
-\- Instalação
-
-\- Configuração
-
-\- Execução
-
-\- Estrutura
-
-\- Testes
-
-\- Deploy
-
-\- Informações adicionais
-
-
-
-\## Tecnologias
-
-
-
-A escolha da tecnologia deve considerar:
-
-
-
-\- Necessidade do projeto
-
-\- Manutenibilidade
-
-\- Segurança
-
-\- Desempenho
-
-\- Escalabilidade
-
-\- Compatibilidade
-
-\- Custo
-
-\- Conhecimento técnico disponível
-
-
-
-\## Desenvolvimento
-
-
+## Desenvolvimento
 
 O desenvolvimento deve seguir os padrões definidos em:
 
-
-
-`docs/development/standards.md`
-
-
-
-\## Segurança
-
-
-
-Projetos devem seguir as práticas definidas em:
-
-
-
-`docs/security/README.md`
-
-
-
-Nunca armazenar credenciais ou informações sensíveis no código.
-
-
-
-\## Infraestrutura
-
-
-
-Projetos que dependam de servidores, banco de dados, containers ou outros serviços devem documentar suas necessidades de infraestrutura.
-
-
-
-Referência:
-
-
-
-`docs/infrastructure/overview.md`
-
-
-
-\## Operações
-
-
-
-Procedimentos de manutenção, deploy, backup e recuperação devem ser documentados quando necessários.
-
-
-
-Referência:
-
-
-
-`docs/operations/README.md`
-
-
-
-\## Status
-
-
-
-Sempre que possível, identificar o estado atual do projeto:
-
-
-
-\- Planejamento
-
-\- Em desenvolvimento
-
-\- Em testes
-
-\- Homologação
-
-\- Produção
-
-\- Em manutenção
-
-\- Arquivado
-
-
-
-\## Versionamento
-
-
-
-Projetos devem utilizar Git e seguir uma estratégia de branches adequada ao seu nível de complexidade.
-
-
-
-\## Evolução
-
-
-
-Projetos devem ser continuamente avaliados quanto a:
-
-
-
-\- Segurança
-
-\- Desempenho
-
-\- Organização
-
-\- Manutenibilidade
-
-\- Atualização de dependências
-
-\- Escalabilidade
-
-
-
-\## Status
-
-
-
-Status: Padrão inicial em desenvolvimento
-
-
-
-Última atualização: 2026
-
+```text
+docs/development/standards.md
