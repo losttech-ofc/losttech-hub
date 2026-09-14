@@ -1,60 +1,32 @@
-\# Arquitetura Geral — LOSTTECH
+# Arquitetura Geral — LOSTTECH
 
-
-
-\## Objetivo
-
-
+## Objetivo
 
 Este documento define a visão arquitetural do ecossistema tecnológico da LOSTTECH.
 
+A arquitetura deve permitir que os projetos sejam desenvolvidos de forma organizada, modular, segura e escalável.
 
+---
 
-A arquitetura deve permitir que projetos sejam desenvolvidos de forma organizada, modular, segura e escalável.
-
-
-
-\---
-
-
-
-\## Visão do ecossistema
-
-
+## Visão do ecossistema
 
 ```text
-
-&#x20;                             LOSTTECH
-
-&#x20;                                │
-
-&#x20;            ┌──────────────┼─────────────┐
-
-&#x20;            │                  │                 │
-
-&#x20;           Software        Infraestrutura     Operações
-
-&#x20;              │                 │                │
-
-&#x20;      ┌─────┼─────┐    ┌───┼───┐      ┌───┼───┐
-
-&#x20;      │       │      │    │    │    │      │    │    │
-
-&#x20;     Web   APIs  Apps  Docker Rede Servidores Automação
-
-&#x20;      │       │      │    │    │    │      │
-
-&#x20;      └─────┼─────┘    └───┼───┘      └───┘
-
-&#x20;              │                 │
-
-&#x20;              └─────────────┼──────────────┐
-
-&#x20;                                │                  │
-
-&#x20;                              Dados            Integrações
-
-&#x20;                                │                  │
-
-&#x20;                           MySQL/MariaDB       APIs REST
-
+                              LOSTTECH
+                                  │
+                 ┌────────────────┼────────────────┐
+                 │                │                │
+              Software       Infraestrutura     Operações
+                 │                │                │
+          ┌──────┼──────┐    ┌────┼────┐           │
+          │      │      │    │    │    │           │
+         Web    APIs   Apps Docker Rede Servidores Automação
+          │      │      │    │    │    │           │
+          └──────┼──────┘    └────┼────┘           │
+                 │                │                │
+                 └────────────────┼────────────────┘
+                                  │
+                     ┌────────────┴────────────┐
+                     │                         │
+                   Dados                  Integrações
+                     │                         │
+               MySQL / MariaDB              APIs REST
