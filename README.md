@@ -1,214 +1,107 @@
-# \# LOSTTECH — Tecnologia, Suporte \& Desenvolvimento
+# LOSTTECH â€” Tecnologia, Suporte & Desenvolvimento
 
-# 
+> **Tecnologia funcionando. VocÃª tranquilo.**
 
-# > \*\*Tecnologia funcionando. Você tranquilo.\*\*
+Empresa de tecnologia especializada em **suporte, infraestrutura e desenvolvimento**, criando soluÃ§Ãµes para pessoas e empresas.
 
-# 
+A LOSTTECH atua na uniÃ£o entre tecnologia, suporte tÃ©cnico, infraestrutura, desenvolvimento de software e automaÃ§Ã£o de processos, buscando entregar soluÃ§Ãµes eficientes, confiÃ¡veis e alinhadas Ã s necessidades de cada projeto.
 
-# Empresa de tecnologia especializada em \*\*suporte, infraestrutura e desenvolvimento\*\*, criando soluções para pessoas e empresas.
+---
 
-# 
+## Sobre a LOSTTECH
 
-# A LOSTTECH atua na união entre tecnologia, suporte técnico, infraestrutura, desenvolvimento de software e automação de processos, buscando entregar soluções eficientes, confiáveis e alinhadas às necessidades de cada projeto.
+A LOSTTECH nasceu com o propÃ³sito de tornar a tecnologia mais simples, funcional e acessÃ­vel.
 
-# 
+Atuamos desde a manutenÃ§Ã£o e suporte de computadores atÃ© o desenvolvimento de sistemas, automaÃ§Ãµes e soluÃ§Ãµes tecnolÃ³gicas personalizadas.
 
-# \---
+Nosso objetivo Ã© fazer com que a tecnologia deixe de ser um problema e passe a trabalhar a favor das pessoas e dos negÃ³cios.
 
-# 
+### Nossos princÃ­pios
 
-# \## Sobre a LOSTTECH
+- TransparÃªncia
+- Confiabilidade
+- Qualidade
+- EficiÃªncia
+- SeguranÃ§a
+- OrganizaÃ§Ã£o
+- EvoluÃ§Ã£o contÃ­nua
+- Foco na necessidade do cliente
 
-# 
+---
 
-# A LOSTTECH nasceu com o propósito de tornar a tecnologia mais simples, funcional e acessível.
+## Ãreas de atuaÃ§Ã£o
 
-# 
+### Suporte de TI
 
-# Atuamos desde a manutenção e suporte de computadores até o desenvolvimento de sistemas, automações e soluções tecnológicas personalizadas.
+- Suporte tÃ©cnico para usuÃ¡rios
+- DiagnÃ³stico e resoluÃ§Ã£o de problemas
+- ManutenÃ§Ã£o preventiva e corretiva
+- FormataÃ§Ã£o e instalaÃ§Ã£o de sistemas
+- ConfiguraÃ§Ã£o de computadores
+- OtimizaÃ§Ã£o de desempenho
+- RemoÃ§Ã£o de vÃ­rus e ameaÃ§as
+- Suporte remoto e presencial
 
-# 
+### Hardware
 
-# Nosso objetivo é fazer com que a tecnologia deixe de ser um problema e passe a trabalhar a favor das pessoas e dos negócios.
+- Montagem de computadores
+- Computadores personalizados
+- Upgrade de hardware
+- InstalaÃ§Ã£o de SSD
+- ExpansÃ£o de memÃ³ria RAM
+- DiagnÃ³stico de componentes
+- ManutenÃ§Ã£o e substituiÃ§Ã£o de peÃ§as
+- OtimizaÃ§Ã£o de configuraÃ§Ãµes
 
-# 
+### Infraestrutura
 
-# \### Nossos princípios
+- Planejamento de infraestrutura
+- OrganizaÃ§Ã£o de ambientes
+- Redes e conectividade
+- ConfiguraÃ§Ã£o de serviÃ§os
+- Servidores
+- Backup
+- SeguranÃ§a
+- Monitoramento
+- EstruturaÃ§Ã£o tecnolÃ³gica para empresas
 
-# 
+### Desenvolvimento de Software
 
-# \- Transparência
+- Sistemas web
+- AplicaÃ§Ãµes personalizadas
+- APIs REST
+- Sistemas internos
+- IntegraÃ§Ãµes
+- PainÃ©is administrativos
+- Ferramentas corporativas
+- SoluÃ§Ãµes sob medida
 
-# \- Confiabilidade
+### AutomaÃ§Ã£o
 
-# \- Qualidade
+- AutomaÃ§Ã£o de processos
+- Scripts
+- IntegraÃ§Ã£o entre sistemas
+- Processos administrativos automatizados
+- Rotinas de manutenÃ§Ã£o
+- Ferramentas internas
+- IntegraÃ§Ãµes via API
 
-# \- Eficiência
+---
 
-# \- Segurança
+## Ecossistema LOSTTECH
 
-# \- Organização
+Este repositÃ³rio funciona como o **Hub Central da LOSTTECH**.
 
-# \- Evolução contínua
+A organizaÃ§Ã£o dos projetos Ã© dividida por Ã¡reas:
 
-# \- Foco na necessidade do cliente
-
-# 
-
-# \---
-
-# 
-
-# \## Áreas de atuação
-
-# 
-
-# \### Suporte de TI
-
-# 
-
-# \- Suporte técnico para usuários
-
-# \- Diagnóstico e resolução de problemas
-
-# \- Manutenção preventiva e corretiva
-
-# \- Formatação e instalação de sistemas
-
-# \- Configuração de computadores
-
-# \- Otimização de desempenho
-
-# \- Remoção de vírus e ameaças
-
-# \- Suporte remoto e presencial
-
-# 
-
-# \### Hardware
-
-# 
-
-# \- Montagem de computadores
-
-# \- Computadores personalizados
-
-# \- Upgrade de hardware
-
-# \- Instalação de SSD
-
-# \- Expansão de memória RAM
-
-# \- Diagnóstico de componentes
-
-# \- Manutenção e substituição de peças
-
-# \- Otimização de configurações
-
-# 
-
-# \### Infraestrutura
-
-# 
-
-# \- Planejamento de infraestrutura
-
-# \- Organização de ambientes
-
-# \- Redes e conectividade
-
-# \- Configuração de serviços
-
-# \- Servidores
-
-# \- Backup
-
-# \- Segurança
-
-# \- Monitoramento
-
-# \- Estruturação tecnológica para empresas
-
-# 
-
-# \### Desenvolvimento de software
-
-# 
-
-# \- Sistemas web
-
-# \- Aplicações personalizadas
-
-# \- APIs REST
-
-# \- Sistemas internos
-
-# \- Integrações
-
-# \- Painéis administrativos
-
-# \- Ferramentas corporativas
-
-# \- Soluções sob medida
-
-# 
-
-# \### Automação
-
-# 
-
-# \- Automação de processos
-
-# \- Scripts
-
-# \- Integração entre sistemas
-
-# \- Processos administrativos automatizados
-
-# \- Rotinas de manutenção
-
-# \- Ferramentas internas
-
-# \- Integrações via API
-
-# 
-
-# \---
-
-# 
-
-# \# Ecossistema LOSTTECH
-
-# 
-
-# Este repositório funciona como o \*\*Hub Central da LOSTTECH\*\*.
-
-# 
-
-# A organização dos projetos é dividida por áreas:
-
-# 
-
-# ```text
-
-# LOSTTECH
-
-# ¦
-
-# +-- Web \& Software
-
-# +-- Automação
-
-# +-- Infraestrutura
-
-# +-- Suporte \& TI
-
-# +-- Ferramentas
-
-# +-- Labs
-
-# +-- Documentação
-
-# +-- Recursos Internos
-
+```text
+LOSTTECH
+â”‚
+â”œâ”€â”€ Web & Software
+â”œâ”€â”€ AutomaÃ§Ã£o
+â”œâ”€â”€ Infraestrutura
+â”œâ”€â”€ Suporte & TI
+â”œâ”€â”€ Ferramentas
+â”œâ”€â”€ Labs
+â”œâ”€â”€ DocumentaÃ§Ã£o
+â””â”€â”€ Recursos Internos
