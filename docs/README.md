@@ -1,202 +1,110 @@
-\# Documentação LOSTTECH
-
-
+# Documentação LOSTTECH
 
 Esta pasta centraliza a documentação técnica, operacional e de desenvolvimento da LOSTTECH.
 
+---
 
+## Estrutura
 
-\## Estrutura
-
-
-
-\### architecture
-
-
+### Architecture
 
 Documentação relacionada à arquitetura dos sistemas e projetos.
 
-
-
 Inclui:
 
+- Arquitetura de software
+- Componentes
+- Integrações
+- Fluxos
+- Diagramas
+- Decisões arquiteturais
 
-
-\- Arquitetura de software
-
-\- Componentes
-
-\- Integrações
-
-\- Fluxos
-
-\- Diagramas
-
-\- Decisões arquiteturais
-
-
-
-\### development
-
-
+### Development
 
 Padrões e processos de desenvolvimento.
 
-
-
 Inclui:
 
+- Padrões de código
+- Git e GitHub
+- Convenções de commits
+- Branches
+- Testes
+- Deploy
+- Boas práticas
 
-
-\- Padrões de código
-
-\- Git e GitHub
-
-\- Convenções de commits
-
-\- Branches
-
-\- Testes
-
-\- Deploy
-
-\- Boas práticas
-
-
-
-\### infrastructure
-
-
+### Infrastructure
 
 Documentação de infraestrutura tecnológica.
 
-
-
 Inclui:
 
+- Servidores
+- Redes
+- Docker
+- Ambientes
+- Serviços
+- Monitoramento
+- Backup
 
-
-\- Servidores
-
-\- Redes
-
-\- Docker
-
-\- Ambientes
-
-\- Serviços
-
-\- Monitoramento
-
-\- Backup
-
-
-
-\### operations
-
-
+### Operations
 
 Procedimentos operacionais da LOSTTECH.
 
-
-
 Inclui:
 
+- Processos
+- Rotinas
+- Manutenção
+- Procedimentos internos
+- Checklists
+- Automação operacional
 
-
-\- Processos
-
-\- Rotinas
-
-\- Manutenção
-
-\- Procedimentos internos
-
-\- Checklists
-
-\- Automação operacional
-
-
-
-\### security
-
-
+### Security
 
 Documentação relacionada à segurança.
 
-
-
 Inclui:
 
+- Políticas de segurança
+- Controle de acesso
+- Gestão de credenciais
+- Boas práticas
+- Backup e recuperação
+- Proteção de dados
 
+> **Importante:** informações sensíveis, credenciais e segredos nunca devem ser armazenados nesta documentação pública.
 
-\- Políticas de segurança
-
-\- Controle de acesso
-
-\- Gestão de credenciais
-
-\- Boas práticas
-
-\- Backup e recuperação
-
-\- Proteção de dados
-
-
-
-> Informações sensíveis, credenciais e segredos nunca devem ser armazenados nesta documentação pública.
-
-
-
-\### projects
-
-
+### Projects
 
 Documentação específica dos projetos da LOSTTECH.
 
-
-
 Cada projeto pode possuir sua própria documentação conforme sua complexidade.
 
+---
 
-
-\---
-
-
-
-\## Princípios
-
-
+## Princípios
 
 A documentação deve ser:
 
-
-
-\- Clara
-
-\- Objetiva
-
-\- Atualizada
-
-\- Versionada
-
-\- Reproduzível
-
-\- Segura
-
-
+- Clara
+- Objetiva
+- Atualizada
+- Versionada
+- Reproduzível
+- Segura
 
 Toda alteração relevante em um projeto deve ser acompanhada da documentação necessária.
 
+---
 
+## Status
 
-\---
+**Status:** Estrutura inicial em desenvolvimento
 
+**Última atualização:** 2026
 
+---
 
-\## Status
-
-
-
-Estrutura inicial em desenvolvimento.
-
+> **LOSTTECH**  
+> *Tecnologia funcionando. Você tranquilo.*
